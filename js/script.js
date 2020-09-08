@@ -1,9 +1,9 @@
 let textInput = document.querySelector(".text-input");
 let ul = document.querySelector("ul");
-let All = document.querySelector(".All");
-let Completed = document.querySelector(".Completed");
-let Active = document.querySelector(".Active");
-let Clear = document.querySelector(".Clear");
+let all = document.querySelector(".all");
+let completed = document.querySelector(".completed");
+let active = document.querySelector(".active");
+let clear = document.querySelector(".clear");
 let item = document.querySelector(".item");
 
 
@@ -93,7 +93,7 @@ createUI();
 textInput.addEventListener('keyup',addTodo);
 ul.addEventListener('click',deleteTodo);
 ul.addEventListener('click',toggleTodo);
-All.addEventListener('click' , handleAll);
-Completed.addEventListener('click' , handleCompleted);
-Active.addEventListener('click' , handleActive);
-Clear.addEventListener('click' , handleClear);
+all.addEventListener('click' , handleAll);
+completed.addEventListener('click' , handleCompleted);
+active.addEventListener('click' , handleActive);
+clear.addEventListener('click' , handleClear);

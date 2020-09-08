@@ -137,26 +137,26 @@ button{
     font-size: 14px;
     color: rgb(92, 90, 87);
 }
-.All:hover{
+.all:hover{
     border: 1px solid darkcyan;
     color: darkcyan;
     
 }
-.Completed:hover{
+.completed:hover{
     border: 1px solid darkcyan;
     color:darkcyan;
     
 }
-.Active:hover{
+.active:hover{
     border: 1px solid darkcyan;
     color:darkcyan;
     
 }
-.Clear a{
+.clear a{
     color: rgb(92, 90, 87);
     
 }
-.Clear a:hover{
+.clear a:hover{
     color:darkcyan;
 }
 div{
